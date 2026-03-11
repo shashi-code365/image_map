@@ -1,0 +1,69 @@
+html,body{
+    width:100%;
+    height:100%;
+    margin:0;
+    padding:0;
+    flex-direction: column;
+    display:flex;
+    align-items: flex-start;
+    background-image: url('background2.webp');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    position:relative;
+
+}
+
+.facilities {
+  
+    position: absolute;
+    right: 20px;
+    top:120px;
+    width: 650px;
+    padding-top: 100px;
+
+}
+
+.facilities dd{
+    position: relative;
+    margin-left: 20px;
+    padding-left: 10px;
+    font-size: 25px;
+
+}
+
+.facilities dt{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+
+h1 {
+    color: black;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 45px;
+    width: 100%; 
+    
+}
+
+p {
+    
+    margin-left: 15px;
+    font-size: 18px
+}
+
+
+#image{
+    width:auto;
+    height:auto;
+    max-width: 80vw;
+    max-height: 70vh;
+    border:1px solid black;
+    margin-left:15px;
+    display:block;
+
+}
+
